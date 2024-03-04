@@ -1,0 +1,6 @@
+export const USER = 'user'
+export const WALLET = 'wallet'
+export const GAS = 'estimate-gas'
+export const PREFIX = 'v1'
+export const NEWS = 'news'
+export const CORE ='core'

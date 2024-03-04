@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: "Axis";
+    font-weight: 600;
+    src: url("/fonts/AxisExtrabold.otf");
+}
+@font-face {
+    font-family: "TWKEverett";
+    font-weight: 400;
+    src: url("/fonts/TWKEverett-Regular.otf");
+}
+@font-face {
+    font-family: "TWKEverett";
+    font-weight: 600;
+    src: url("/fonts/TWKEverett-Medium.otf");
+}
+@font-face {
+    font-family: "TWKEverett";
+    font-weight: 800;
+    src: url("/fonts/TWKEverett-Bold.otf");
+}
+
+.purple {
+    background: linear-gradient(90deg, #f44cf8 0%, #7737c7 58%, #501e82 100%);
+}
+
+.purple:hover {
+    background: white;
+}
+
+.solana {
+    background: linear-gradient(90deg, #36f181 0%, #4af8e3 48%, #5fe2ff 100%);
+}
